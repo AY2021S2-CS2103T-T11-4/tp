@@ -44,6 +44,6 @@ public class TypeTest {
         Type typeThree = new Type("strawberry cake");
 
         assertEquals(typeOne, typeThree); //same value for type
-        assertNotEquals(typeOne, typeTwo); //type is case sensitive
+        assertEquals(typeOne, typeTwo); //type is case insensitive
     }
 }
