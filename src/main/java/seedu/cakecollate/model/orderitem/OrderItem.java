@@ -25,7 +25,7 @@ public class OrderItem {
     }
 
     /**
-     * Returns true if both order items have the same type of cake.
+     * Returns true if both order items have the same type of cake regardless of case.
      */
     @Override
     public boolean equals(Object other) {
